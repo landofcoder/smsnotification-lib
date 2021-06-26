@@ -1,0 +1,35 @@
+{
+    "name": "lof/smsnotification-lib",
+    "description": "Sms Notification Extension for magento 2",
+    "require": {
+      "landofcoder/smsnotification-messagebird-lib":"1.*",
+      "landofcoder/smsnotification-twilio-lib":"1.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "keywords": [
+      "landofcoder",
+      "landofcoder SmsNotification",
+      "SmsNotification magento 2",
+      "magento 2 SmsNotification",
+      "SmsNotification magento 2",
+      "SmsNotification for magento 2"
+    ],
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "authors": [
+      {
+          "name": "Landofcoder",
+          "email": "landofcoder@gmail.com",
+          "role": "Magento 2 Lof SmsNotification"
+      }
+    ],
+    "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+        "Lof\\SmsNotificationLib\\": ""
+    }
+    }
+}
