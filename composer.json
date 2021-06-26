@@ -1,5 +1,5 @@
 {
-    "name": "lof/smsnotification-lib",
+    "name": "landofcoder/smsnotification-lib",
     "description": "Sms Notification Extension for magento 2",
     "require": {
       "landofcoder/smsnotification-messagebird-lib":"1.*",
